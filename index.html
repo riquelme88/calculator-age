@@ -13,21 +13,25 @@
     <div class="container">
         <div class="inputs">
             <label for="">Day
-                <input type="number" id="day" placeholder="DD">
+                <input type="number" id="days" placeholder="DD">
+                <p data-base="days"></p>
             </label>
             <label for="">Month
-                <input type="number" id="day" placeholder="MM">
+                <input type="number" id="months" placeholder="MM">
+                <p data-base="months"></p>
             </label>
             <label for="">Year
-                <input type="number" id="day" placeholder="YYYY">
+                <input type="number" id="years" placeholder="YYYY" >
+                <p data-base="years"></p>
+                
             </label>
         </div>
         <div class="line-arrow">
             <div class="line"></div>
-            <div class="arrow"><img src="icon-arrow.svg" alt=""></div>
+            <div class="arrow" ><img src="icon-arrow.svg" alt=""></div>
         </div>
         <div class="result-age">
-            <div class="years">
+            <div class="years" >
                 <h2>--</h2>
                 <p>years</p>
             </div>
@@ -35,11 +39,15 @@
                 <h2>--</h2>
                 <p>months</p>
             </div>
-            <div class="days">
+            <div class="days" >
                 <h2>--</h2>
                 <p>days</p>
             </div>
         </div>
     </div>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
